@@ -122,7 +122,7 @@ public class ReconciliationServiceTest {
 		
 	}
 
-	// Don't change this class
+	// Don't change this code
 	private TransactionDto createTxDto(String developerId, String payPalId,
 			double appPrice) {
 		/*
@@ -166,7 +166,7 @@ public class ReconciliationServiceTest {
 	@Test
 	public void calculates_payable_with_multiple_Transaction() throws Exception {
 		/*
-		 * TODO: 6. Now it's time to test multiple transactions—one with CAD 200.00 
+		 * TODO: 6. Now it's time to test multiple transactionsâ€”one with CAD 200.00 
 		 * and another with CAD 15.00, and Standard and Premium memberships. 
 		 * The deductible is 30 percent and 10 percent respectively. 
 		 * memberShip(double percent) method creates membershipStatusDto. 
