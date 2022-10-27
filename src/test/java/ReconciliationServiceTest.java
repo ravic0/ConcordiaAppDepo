@@ -58,7 +58,7 @@ public class ReconciliationServiceTest {
 		/*TODO 2.
 		 * Add a test to verify that the reconcile method calls membershipDAO to
 		 * fetch the membership details for a developer. In the test, create a list of
-		 * transactions and add only one transaction with the developer's ID as USER100 and USER101.
+		 * transactions and add only one transaction with the developer's ID as USER100.
 		 * Stub financialTransactioDAO to retrieve this list.
 		 */
 				
@@ -81,7 +81,7 @@ public class ReconciliationServiceTest {
 		 * Times(3), then the argument captor will capture arguments for all
 		 * invocations. Finally, we will ask the argument captor to return the list of
 		 * invocations and from that list we will verify whether membershipDAO was
-		 * invoked for both Bob and John:
+		 * invoked for Bob, Jim and John:
 		 */
 		
 		//add the mock code to retrieve the unsettled transactions using multipleTxs
