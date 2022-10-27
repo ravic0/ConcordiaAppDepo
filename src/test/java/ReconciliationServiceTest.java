@@ -64,7 +64,7 @@ public class ReconciliationServiceTest {
 				
 		 assertEquals(1, service.reconcile());
 		 /* During test execution, the service will get this list and then it should ask
-		 * membershipDAO to get the details of developer USER100 and USER101. We will verify that in
+		 * membershipDAO to get the details of developer USER100. We will verify that in
 		 * the test using Mockito's verify() API. Add the verify code below.
 		 */		
 	}
